@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch : 'main',url : 'https://github.com/.git'
+                git branch: 'main', url: 'https://github.com/guruvenkatakrishna/jenkinspipeline.git'
             }
         }
         stage('Code Analysis') {
